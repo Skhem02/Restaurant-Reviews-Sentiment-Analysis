@@ -24,21 +24,21 @@ Textual data undergoes preprocessing using natural language processing (NLP) tec
 The sentiment analysis model is trained using the Naive Bayes classifier, specifically the Gaussian Naive Bayes model. The dataset is split into training and testing sets for evaluating the model's effectiveness.
 
 
-##Functionality
+## Functionality
 
 The core functionality of the program is to classify reviews into positive or negative sentiment. Users can leverage this tool to:
 
 - Check Positive Feedback:
 
-Input a new review.
-Receive output indicating whether the sentiment is positive.
+      Input a new review.
+      Receive output indicating whether the sentiment is positive.
 
 - Check Negative Feedback:
 
-Input a new review.
-Receive output indicating whether the sentiment is negative.
+      Input a new review.
+      Receive output indicating whether the sentiment is negative.
 
-** Install the required dependencies:
+- Install the required dependencies:
 
 ```python
 import re
