@@ -12,12 +12,12 @@ The dataset, stored in the "Restaurant_Reviews.tsv" file, includes two columns: 
 
 Textual data undergoes preprocessing using natural language processing (NLP) techniques, such as:
 
-** Removal of non-alphabetic characters.
-** Conversion to lowercase.
-** Tokenization into words.
-** Removal of stopwords.
-** Application of stemming using the Porter Stemmer.
-** The processed data is then transformed into a Bag of Words representation using the CountVectorizer from scikit-learn.
+- Removal of non-alphabetic characters.
+- Conversion to lowercase.
+- Tokenization into words.
+- Removal of stopwords.
+- Application of stemming using the Porter Stemmer.
+- The processed data is then transformed into a Bag of Words representation using the CountVectorizer from scikit-learn.
 
 ## Model Training
 
@@ -28,12 +28,12 @@ The sentiment analysis model is trained using the Naive Bayes classifier, specif
 
 The core functionality of the program is to classify reviews into positive or negative sentiment. Users can leverage this tool to:
 
-** Check Positive Feedback:
+- Check Positive Feedback:
 
 Input a new review.
 Receive output indicating whether the sentiment is positive.
 
-** Check Negative Feedback:
+- Check Negative Feedback:
 
 Input a new review.
 Receive output indicating whether the sentiment is negative.
